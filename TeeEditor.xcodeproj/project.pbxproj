@@ -13,7 +13,17 @@
 		ABF38BE91B898D2900C16026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF38BE71B898D2900C16026 /* Main.storyboard */; };
 		ABF38BEB1B898D2900C16026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF38BEA1B898D2900C16026 /* Images.xcassets */; };
 		ABF38BEE1B898D2900C16026 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF38BEC1B898D2900C16026 /* LaunchScreen.xib */; };
-		ABF38BFA1B898D2900C16026 /* TeeEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38BF91B898D2900C16026 /* TeeEditorTests.m */; };
+		ABF38C1D1B899BB400C16026 /* CPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C051B899BB400C16026 /* CPublic.m */; };
+		ABF38C1F1B899BB400C16026 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C081B899BB400C16026 /* NSObject+JSON.m */; };
+		ABF38C211B899BB400C16026 /* NSString+CString.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C0A1B899BB400C16026 /* NSString+CString.m */; };
+		ABF38C231B899BB400C16026 /* CFileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C0D1B899BB400C16026 /* CFileTools.m */; };
+		ABF38C251B899BB400C16026 /* UIColor+CColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C101B899BB400C16026 /* UIColor+CColor.m */; };
+		ABF38C271B899BB400C16026 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C121B899BB400C16026 /* UIImage+Ext.m */; };
+		ABF38C291B899BB400C16026 /* CApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C151B899BB400C16026 /* CApplication.m */; };
+		ABF38C2B1B899BB400C16026 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C1A1B899BB400C16026 /* PSTAlertController.m */; };
+		ABF38C2D1B899BB400C16026 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C1C1B899BB400C16026 /* UIViewExt.m */; };
+		ABF38C321B899E4F00C16026 /* TeeEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38C311B899E4F00C16026 /* TeeEditor.m */; };
+		EF74274DAA2C20671B2268B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39DE08A186DE29F71115262 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC49225CFBEA1BF61596C1F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8672B2F6BBCCE0701425F9B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ABF38BDA1B898D2900C16026 /* TeeEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeeEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF38BDE1B898D2900C16026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF38BDF1B898D2900C16026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,29 @@
 		ABF38BF31B898D2900C16026 /* TeeEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeeEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF38BF81B898D2900C16026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF38BF91B898D2900C16026 /* TeeEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeeEditorTests.m; sourceTree = "<group>"; };
+		ABF38C041B899BB400C16026 /* CPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPublic.h; sourceTree = "<group>"; };
+		ABF38C051B899BB400C16026 /* CPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPublic.m; sourceTree = "<group>"; };
+		ABF38C071B899BB400C16026 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		ABF38C081B899BB400C16026 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		ABF38C091B899BB400C16026 /* NSString+CString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CString.h"; sourceTree = "<group>"; };
+		ABF38C0A1B899BB400C16026 /* NSString+CString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CString.m"; sourceTree = "<group>"; };
+		ABF38C0C1B899BB400C16026 /* CFileTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFileTools.h; sourceTree = "<group>"; };
+		ABF38C0D1B899BB400C16026 /* CFileTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFileTools.m; sourceTree = "<group>"; };
+		ABF38C0F1B899BB400C16026 /* UIColor+CColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CColor.h"; sourceTree = "<group>"; };
+		ABF38C101B899BB400C16026 /* UIColor+CColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CColor.m"; sourceTree = "<group>"; };
+		ABF38C111B899BB400C16026 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
+		ABF38C121B899BB400C16026 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
+		ABF38C141B899BB400C16026 /* CApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CApplication.h; sourceTree = "<group>"; };
+		ABF38C151B899BB400C16026 /* CApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CApplication.m; sourceTree = "<group>"; };
+		ABF38C161B899BB400C16026 /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		ABF38C191B899BB400C16026 /* PSTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTAlertController.h; sourceTree = "<group>"; };
+		ABF38C1A1B899BB400C16026 /* PSTAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTAlertController.m; sourceTree = "<group>"; };
+		ABF38C1B1B899BB400C16026 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		ABF38C1C1B899BB400C16026 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		ABF38C2F1B899D1F00C16026 /* TeeEditor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TeeEditor-Prefix.pch"; sourceTree = "<group>"; };
+		ABF38C301B899E4F00C16026 /* TeeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeeEditor.h; sourceTree = "<group>"; };
+		ABF38C311B899E4F00C16026 /* TeeEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeeEditor.m; sourceTree = "<group>"; };
+		F39DE08A186DE29F71115262 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF74274DAA2C20671B2268B9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30453E792F17141367C93B40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8672B2F6BBCCE0701425F9B6 /* Pods.debug.xcconfig */,
+				2DC49225CFBEA1BF61596C1F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ABF38BD11B898D2900C16026 = {
 			isa = PBXGroup;
 			children = (
 				ABF38BDC1B898D2900C16026 /* TeeEditor */,
 				ABF38BF61B898D2900C16026 /* TeeEditorTests */,
 				ABF38BDB1B898D2900C16026 /* Products */,
+				30453E792F17141367C93B40 /* Pods */,
+				C67413BAB942CF1BDB7B53F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +128,7 @@
 		ABF38BDC1B898D2900C16026 /* TeeEditor */ = {
 			isa = PBXGroup;
 			children = (
+				ABF38C031B899BB400C16026 /* PublicLib */,
 				ABF38BE11B898D2900C16026 /* AppDelegate.h */,
 				ABF38BE21B898D2900C16026 /* AppDelegate.m */,
 				ABF38BE41B898D2900C16026 /* ViewController.h */,
@@ -89,6 +137,8 @@
 				ABF38BEA1B898D2900C16026 /* Images.xcassets */,
 				ABF38BEC1B898D2900C16026 /* LaunchScreen.xib */,
 				ABF38BDD1B898D2900C16026 /* Supporting Files */,
+				ABF38C301B899E4F00C16026 /* TeeEditor.h */,
+				ABF38C311B899E4F00C16026 /* TeeEditor.m */,
 			);
 			path = TeeEditor;
 			sourceTree = "<group>";
@@ -98,6 +148,7 @@
 			children = (
 				ABF38BDE1B898D2900C16026 /* Info.plist */,
 				ABF38BDF1B898D2900C16026 /* main.m */,
+				ABF38C2F1B899D1F00C16026 /* TeeEditor-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +170,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABF38C031B899BB400C16026 /* PublicLib */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38C041B899BB400C16026 /* CPublic.h */,
+				ABF38C051B899BB400C16026 /* CPublic.m */,
+				ABF38C061B899BB400C16026 /* DataHandle */,
+				ABF38C0B1B899BB400C16026 /* FileSystem */,
+				ABF38C0E1B899BB400C16026 /* Image&Color */,
+				ABF38C131B899BB400C16026 /* Other */,
+				ABF38C161B899BB400C16026 /* PublicDefine.h */,
+				ABF38C171B899BB400C16026 /* View */,
+			);
+			path = PublicLib;
+			sourceTree = "<group>";
+		};
+		ABF38C061B899BB400C16026 /* DataHandle */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38C071B899BB400C16026 /* NSObject+JSON.h */,
+				ABF38C081B899BB400C16026 /* NSObject+JSON.m */,
+				ABF38C091B899BB400C16026 /* NSString+CString.h */,
+				ABF38C0A1B899BB400C16026 /* NSString+CString.m */,
+			);
+			path = DataHandle;
+			sourceTree = "<group>";
+		};
+		ABF38C0B1B899BB400C16026 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38C0C1B899BB400C16026 /* CFileTools.h */,
+				ABF38C0D1B899BB400C16026 /* CFileTools.m */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		ABF38C0E1B899BB400C16026 /* Image&Color */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38C0F1B899BB400C16026 /* UIColor+CColor.h */,
+				ABF38C101B899BB400C16026 /* UIColor+CColor.m */,
+				ABF38C111B899BB400C16026 /* UIImage+Ext.h */,
+				ABF38C121B899BB400C16026 /* UIImage+Ext.m */,
+			);
+			path = "Image&Color";
+			sourceTree = "<group>";
+		};
+		ABF38C131B899BB400C16026 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38C141B899BB400C16026 /* CApplication.h */,
+				ABF38C151B899BB400C16026 /* CApplication.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ABF38C171B899BB400C16026 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38C181B899BB400C16026 /* PSTAlertControler */,
+				ABF38C1B1B899BB400C16026 /* UIViewExt.h */,
+				ABF38C1C1B899BB400C16026 /* UIViewExt.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABF38C181B899BB400C16026 /* PSTAlertControler */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38C191B899BB400C16026 /* PSTAlertController.h */,
+				ABF38C1A1B899BB400C16026 /* PSTAlertController.m */,
+			);
+			path = PSTAlertControler;
+			sourceTree = "<group>";
+		};
+		C67413BAB942CF1BDB7B53F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F39DE08A186DE29F71115262 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABF38BFD1B898D2900C16026 /* Build configuration list for PBXNativeTarget "TeeEditor" */;
 			buildPhases = (
+				A41D47E3592A59E6DAFF6C8D /* Check Pods Manifest.lock */,
 				ABF38BD61B898D2900C16026 /* Sources */,
 				ABF38BD71B898D2900C16026 /* Frameworks */,
 				ABF38BD81B898D2900C16026 /* Resources */,
+				D13F88FF1C7BA3007DE8E61B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +349,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A41D47E3592A59E6DAFF6C8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D13F88FF1C7BA3007DE8E61B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABF38BD61B898D2900C16026 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF38C271B899BB400C16026 /* UIImage+Ext.m in Sources */,
+				ABF38C231B899BB400C16026 /* CFileTools.m in Sources */,
+				ABF38C211B899BB400C16026 /* NSString+CString.m in Sources */,
 				ABF38BE61B898D2900C16026 /* ViewController.m in Sources */,
+				ABF38C2D1B899BB400C16026 /* UIViewExt.m in Sources */,
+				ABF38C321B899E4F00C16026 /* TeeEditor.m in Sources */,
 				ABF38BE31B898D2900C16026 /* AppDelegate.m in Sources */,
+				ABF38C1D1B899BB400C16026 /* CPublic.m in Sources */,
+				ABF38C291B899BB400C16026 /* CApplication.m in Sources */,
+				ABF38C251B899BB400C16026 /* UIColor+CColor.m in Sources */,
+				ABF38C1F1B899BB400C16026 /* NSObject+JSON.m in Sources */,
+				ABF38C2B1B899BB400C16026 /* PSTAlertController.m in Sources */,
 				ABF38BE01B898D2900C16026 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF38BFA1B898D2900C16026 /* TeeEditorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +522,13 @@
 		};
 		ABF38BFE1B898D2900C16026 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8672B2F6BBCCE0701425F9B6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "TeeEditor/TeeEditor-Prefix.pch";
 				INFOPLIST_FILE = TeeEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +536,13 @@
 		};
 		ABF38BFF1B898D2900C16026 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC49225CFBEA1BF61596C1F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "TeeEditor/TeeEditor-Prefix.pch";
 				INFOPLIST_FILE = TeeEditor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -371,6 +556,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu89;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -390,6 +576,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu89;
 				INFOPLIST_FILE = TeeEditorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +603,7 @@
 				ABF38BFF1B898D2900C16026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABF38C001B898D2900C16026 /* Build configuration list for PBXNativeTarget "TeeEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +612,7 @@
 				ABF38C021B898D2900C16026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

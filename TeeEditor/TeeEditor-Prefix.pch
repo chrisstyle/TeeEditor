@@ -1,0 +1,18 @@
+//
+//  TeeEditor-Prefix.pch
+//  TeeEditor
+//
+//  Created by YanZheng on 8/23/15.
+//  Copyright (c) 2015 fastquick. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "TeeEditor.h"
+
+#endif
