@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB9797E41B96D67100653E71 /* TeeUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9797E31B96D67100653E71 /* TeeUserCenter.m */; };
+		AB9797E81B96D6E600653E71 /* TeeDesigner.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9797E71B96D6E600653E71 /* TeeDesigner.m */; };
+		ABDC5AB01B96DC3400CF7F0B /* TeeDesign.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC5AAB1B96DC3400CF7F0B /* TeeDesign.m */; };
+		ABDC5AB11B96DC3400CF7F0B /* TeeDesignClothes.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC5AAD1B96DC3400CF7F0B /* TeeDesignClothes.m */; };
+		ABDC5AB21B96DC3400CF7F0B /* TeeDesignPhoneShell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC5AAF1B96DC3400CF7F0B /* TeeDesignPhoneShell.m */; };
 		ABF38BE01B898D2900C16026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38BDF1B898D2900C16026 /* main.m */; };
 		ABF38BE31B898D2900C16026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38BE21B898D2900C16026 /* AppDelegate.m */; };
 		ABF38BE61B898D2900C16026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF38BE51B898D2900C16026 /* ViewController.m */; };
@@ -39,6 +44,16 @@
 /* Begin PBXFileReference section */
 		2DC49225CFBEA1BF61596C1F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8672B2F6BBCCE0701425F9B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9797E21B96D67100653E71 /* TeeUserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeeUserCenter.h; sourceTree = "<group>"; };
+		AB9797E31B96D67100653E71 /* TeeUserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeeUserCenter.m; sourceTree = "<group>"; };
+		AB9797E61B96D6E600653E71 /* TeeDesigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeeDesigner.h; sourceTree = "<group>"; };
+		AB9797E71B96D6E600653E71 /* TeeDesigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeeDesigner.m; sourceTree = "<group>"; };
+		ABDC5AAA1B96DC3400CF7F0B /* TeeDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeeDesign.h; sourceTree = "<group>"; };
+		ABDC5AAB1B96DC3400CF7F0B /* TeeDesign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeeDesign.m; sourceTree = "<group>"; };
+		ABDC5AAC1B96DC3400CF7F0B /* TeeDesignClothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeeDesignClothes.h; sourceTree = "<group>"; };
+		ABDC5AAD1B96DC3400CF7F0B /* TeeDesignClothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeeDesignClothes.m; sourceTree = "<group>"; };
+		ABDC5AAE1B96DC3400CF7F0B /* TeeDesignPhoneShell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeeDesignPhoneShell.h; sourceTree = "<group>"; };
+		ABDC5AAF1B96DC3400CF7F0B /* TeeDesignPhoneShell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeeDesignPhoneShell.m; sourceTree = "<group>"; };
 		ABF38BDA1B898D2900C16026 /* TeeEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeeEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF38BDE1B898D2900C16026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF38BDF1B898D2900C16026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +120,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AB9797E51B96D6D100653E71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABDC5AAA1B96DC3400CF7F0B /* TeeDesign.h */,
+				ABDC5AAB1B96DC3400CF7F0B /* TeeDesign.m */,
+				ABDC5AAC1B96DC3400CF7F0B /* TeeDesignClothes.h */,
+				ABDC5AAD1B96DC3400CF7F0B /* TeeDesignClothes.m */,
+				ABDC5AAE1B96DC3400CF7F0B /* TeeDesignPhoneShell.h */,
+				ABDC5AAF1B96DC3400CF7F0B /* TeeDesignPhoneShell.m */,
+				AB9797E61B96D6E600653E71 /* TeeDesigner.h */,
+				AB9797E71B96D6E600653E71 /* TeeDesigner.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		ABF38BD11B898D2900C16026 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +158,7 @@
 		ABF38BDC1B898D2900C16026 /* TeeEditor */ = {
 			isa = PBXGroup;
 			children = (
+				AB9797E51B96D6D100653E71 /* Model */,
 				ABF38C031B899BB400C16026 /* PublicLib */,
 				ABF38BE11B898D2900C16026 /* AppDelegate.h */,
 				ABF38BE21B898D2900C16026 /* AppDelegate.m */,
@@ -139,6 +170,8 @@
 				ABF38BDD1B898D2900C16026 /* Supporting Files */,
 				ABF38C301B899E4F00C16026 /* TeeEditor.h */,
 				ABF38C311B899E4F00C16026 /* TeeEditor.m */,
+				AB9797E21B96D67100653E71 /* TeeUserCenter.h */,
+				AB9797E31B96D67100653E71 /* TeeUserCenter.m */,
 			);
 			path = TeeEditor;
 			sourceTree = "<group>";
@@ -388,17 +421,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF38C271B899BB400C16026 /* UIImage+Ext.m in Sources */,
+				ABDC5AB11B96DC3400CF7F0B /* TeeDesignClothes.m in Sources */,
+				AB9797E81B96D6E600653E71 /* TeeDesigner.m in Sources */,
 				ABF38C231B899BB400C16026 /* CFileTools.m in Sources */,
 				ABF38C211B899BB400C16026 /* NSString+CString.m in Sources */,
 				ABF38BE61B898D2900C16026 /* ViewController.m in Sources */,
+				ABDC5AB21B96DC3400CF7F0B /* TeeDesignPhoneShell.m in Sources */,
 				ABF38C2D1B899BB400C16026 /* UIViewExt.m in Sources */,
 				ABF38C321B899E4F00C16026 /* TeeEditor.m in Sources */,
 				ABF38BE31B898D2900C16026 /* AppDelegate.m in Sources */,
 				ABF38C1D1B899BB400C16026 /* CPublic.m in Sources */,
+				AB9797E41B96D67100653E71 /* TeeUserCenter.m in Sources */,
 				ABF38C291B899BB400C16026 /* CApplication.m in Sources */,
 				ABF38C251B899BB400C16026 /* UIColor+CColor.m in Sources */,
 				ABF38C1F1B899BB400C16026 /* NSObject+JSON.m in Sources */,
 				ABF38C2B1B899BB400C16026 /* PSTAlertController.m in Sources */,
+				ABDC5AB01B96DC3400CF7F0B /* TeeDesign.m in Sources */,
 				ABF38BE01B898D2900C16026 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

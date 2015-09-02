@@ -2,7 +2,7 @@
 //  ViewController.m
 //  TeeEditor
 //
-//  Created by YanZheng on 8/23/15.
+//  Created by iOS121 on 8/23/15.
 //  Copyright (c) 2015 fastquick. All rights reserved.
 //
 
@@ -23,5 +23,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)albumButtonClicked:(id)sender
+{
+}
+
+- (IBAction)cameraButtonClicked:(id)sender
+{
+}
+
+- (IBAction)textButtonClicked:(id)sender
+{
+}
+
 
 @end
